@@ -391,7 +391,8 @@ body {
   background: #d5fdd5;
   padding: 10px;
   text-align: center;
-  width: 80px;
+  width: 90px;
+  line-height: 15px;
   margin-top: -37px;
   border-radius: 9px; }
 
@@ -429,7 +430,8 @@ body {
   border-radius: 9px;
   color: #000000;
   font-size: 12px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  line-height: 15px; }
 
 @media screen and (max-width: 575px) {
   .responsive-layout {
@@ -483,7 +485,7 @@ body {
   .score-box {
     background: #d5fdd5;
     float: none;
-    width: 100px;
+    width: 111px;
     margin: auto;
     margin-bottom: 10px; }
   .lower-res {
@@ -495,3 +497,4 @@ body {
 @media screen and (max-width: 800px) {
   .text-resize {
     font-size: 0.9em; } }
+
