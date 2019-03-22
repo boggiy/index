@@ -1,0 +1,393 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500,600);
+@import "app/sass/variables";
+@import "app/sass/buttons";
+@import "app/sass/nav";
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: auto;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.submit-offer {
+  color: $black;
+  text-align: center;
+  font-size: 32px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.line {
+  border: 1px solid violet;
+  width: 25%;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.check-offer {
+  border: 1px solid $light-green;
+  background: $light-green;
+  width: 18%;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 130px;
+  cursor: pointer;
+  color: $white;
+}
+
+.score {
+  padding: 15px;
+  background: beige;
+  width: 60px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: $white;
+  vertical-align: top;
+  line-height: 35px;
+  font-size: 2rem;
+}
+
+.color-red {
+  color: $red;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.centered {
+  text-align: center;
+}
+
+.car-name-width {
+  width: 218px;
+  text-align: left;
+}
+
+.top-offers {
+  margin-bottom: 25px;
+}
+
+.vehiculum-offers {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.margin-bottom {
+  margin-bottom: 60px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.padding-right {
+  padding-right: 15px;
+}
+
+.nav-text-center {
+  margin-top: -10px;
+  display: inline-block;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flame-img {
+  padding-right: 8px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1501px) {
+  .slick-slide {
+    width: 300px!important;
+  }
+  .autoplay {
+    width: 75%!important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .slick-slide {
+    width: 280px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile {
+    color: $black;
+    text-align: center;
+  }
+  .flame-img {
+    padding-left: 0px;
+  }
+  .mobile-center{
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  .brands-width {
+    width: 15%;
+    min-width: 110px;
+  }
+  .ford-box {
+    font-size: 12px!important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .text-over-image {
+    position: absolute;
+    top: 7vw;
+    left: 4vw;
+  }
+  .brands {
+    display: flex;
+    justify-content: center;
+  }
+  .full-width {
+    width: 100%;
+  }
+  hr.vertical-line {
+  	border: none;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height: 32px;
+    width: 0px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .line {
+    display: none;
+  }
+}
+
+.autoplay {
+  margin: auto;
+}  
+
+.vehicle-card {
+  border: 1px solid $black;
+  padding: 15px;
+  font-size: 10px;
+  margin-right: 20px;
+}
+
+.vehicle-image{
+  width: 80%;
+  margin: auto;
+}
+
+.car-name {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.box {
+  float: right;
+  background: $box-color;
+  padding: 10px;
+  text-align: center;
+  width: 80px;
+  margin-top: -37px;
+  border-radius: 9px;
+  }
+
+.valid-offer {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.brands-width {
+  margin: auto;
+}
+
+.header-image {
+  margin-top: 48px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+@media screen and (max-width: 925px) {
+  .model-text-center, .car-name {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .box {
+    float: none;
+    margin: auto;
+  }
+}
+
+.ford-box {
+  background: $white;
+  color: $black;
+  font-size: 1.3vw;
+  margin-top: 10px;
+}
+
+.score-box {
+  float: right;
+  background: $white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 9px;
+  color: $black;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 575px) {
+	.responsive-layout {
+	    width: 90%!important;
+	    margin: auto;
+	  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 1049px) {
+	.responsive-layout {
+	    width: 50%!important;
+	    margin: auto;
+	}
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1780px) {
+	.responsive-layout {
+	    min-width: 44.66%;
+	}
+}
+
+.account-img {
+  padding-left: 20px;
+  margin-right: -10px;
+  vertical-align: middle;
+}
+
+.cart-img {
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+.arrow-img {
+  vertical-align: middle;
+  padding-left: 6px;
+}
+
+@media screen and (min-width: 1200px) {
+	.ford-box {
+	  margin-top: 8%;
+	}
+	.text-over-image {
+	  top: 12vw;
+	}
+}
+
+@media screen and (min-width: 1021px) {
+	.text-over-image-ford {
+	  position: absolute;
+	  color: $white;
+	  margin-top: -10px;
+	  padding-left: 50px;
+	  width: 43vw;
+	}
+	.overlay { 
+	  display: block;
+	  position: absolute;
+	  width: 100%;
+	  height: 100px;
+	  background: $black;
+	  opacity: 0.7;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+    .score-box {
+      background: $box-color;
+      float: none;
+      width: 100px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .lower-res {
+      float: none;
+      text-align: center;
+    }
+    .ford-box{
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+	.text-resize {
+	  font-size: 0.9em
+	}
+}

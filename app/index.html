@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VEHICULUM.</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+</head>
+
+<nav class="topnav" id="myTopnav">
+  <img class="logo" src="images/logo.svg">
+  <div class="topnav-centered">
+    <a href="#home" title="Home">Special offers</a>
+    <a href="#services" title="Services">Browse vehicles</a>
+    <a href="#about" title="About">About us</a>
+    <a class="cart" href="#cart" title="Cart">My cart</a>
+  </div>
+  <div class="dropdown">
+    <img class="cart-img no-mobile" src="images/icons/cart.svg">
+    <hr class="vertical-line" />
+    <img class="account-img no-mobile" src="images/icons/account.svg">
+    <button class="dropbtn">Your account 
+      <i class="fa fa-caret-down"></i>
+      <img class="arrow-img" src="images/icons/arrow.svg">
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Contracts</a>
+      <a href="#">Wishlist</a>
+      <hr class="divider">
+      <a href="#">Account settings</a>
+      <a href="#">Fleet Management</a>
+      <hr class="divider">
+      <a href="#">Login / Sign Up</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<body>
+  
+  <div class="container">
+    <img class="col-12 header-image" src="images/header.png">
+    <div class="text-over-image mobile">
+    	BEST LEASING DEALS <br> IN ONE PLACE 
+    	<div class="subtitle">
+        VEHICULUM customers save an average of <span class="color-red">€ 4,000</span>
+    	</div>
+    	<div class="select-btn cursor-pointer">
+        SELECT CAR
+      </div>
+    	<div class="help-btn cursor-pointer">
+        HELP ME TO FIND RIGHT CAR
+      </div>
+	  </div>
+	</div>
+
+  <div class="col-12">
+  	<div class="mobile-center">
+  		<img class="flame-img" src="images/icons/fire.svg">
+  		<h2 class="inline-block">Only on Vehiculum<h2>
+  	</div>
+    <div class="autoplay">
+  	  <div class="col-3 vehicle-card">
+  		  <div class="car-name">Jaguar XE</div>
+  		  <div class="model-text-center">20d AWD</div> 
+  		  <div class="box">
+  			 <a class="underline">Attractivnes</a>
+  			 <br/>
+  			 <a>9.3</a>
+  		  </div>
+  		  <img class="vehicle-image" src="images/vehicles/jaguar-xe.png">
+  		  <div class="col-12 no-padding text-resize">
+  			 <p class="float-left">Avr. cost per month</p><p class="float-right">€ 799</p>
+  		  </div>
+  		  <div class="col-12 no-padding text-resize">
+  			 <p class="float-left">Vehiculum price</p><p class="float-right">€ 649</p>
+  		  </div>
+  		  <div class="col-12 no-padding text-resize">
+  			 <p class="float-left">Saved during the deal</p><p class="float-right color-red">€ 4649</p>
+  		  </div>
+  		  <div class="valid-offer">This offer is valid only for the next 48 hours. Hurry up!</div>
+      </div>
+      <div class="col-3 vehicle-card">
+    		<div class="car-name">Porsche</div>
+    		<div class="model-text-center">Boxter 718 GTS</div>
+    		<div class="box">
+    			<a class="underline">Attractivnes</a>
+    			<br/>
+    			<a>8.1</a>
+    		</div>
+      	<img class="vehicle-image" src="images/vehicles/porsche-boxter.png">
+      	<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Avr. cost per month</p><p class="float-right">€ 967</p>
+    		</div>
+    		<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Vehiculum price</p><p class="float-right">€ 835,1</p>
+    		</div>
+    		<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Saved during the deal</p><p class="float-right color-red">€ 8655</p>
+    		</div>
+    		<div class="valid-offer">This offer is valid only for the next 48 hours. Hurry up!</div>
+  		</div>
+      <div class="col-3 vehicle-card">
+    		<div class="car-name">Ford</div>
+    		<div class="model-text-center">Mondeo Tournament</div>
+    		<div class="box">
+    			<a class="underline">Attractivnes</a>
+    			<br/>
+    			<a>10</a>
+    		</div>
+      	<img class="vehicle-image" src="images/vehicles/ford-mondeo.png">
+      	<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Avr. cost per month</p><p class="float-right">€ 145</p>
+    		</div>
+    		<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Vehiculum price</p><p class="float-right">€ 79</p>
+    		</div>
+    		<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Saved during the deal</p><p class="float-right color-red">€ 6785</p>
+    		</div>
+    		<div class="valid-offer">This offer is valid only for the next 48 hours. Hurry up!</div>
+  	  </div>
+      <div class="col-3 vehicle-card">
+    		<div class="car-name">Volvo</div>
+    		<div class="model-text-center">V40 T3 Momentum</div>
+    		<div class="box">
+    			<a class="underline">Attractivnes</a>
+    			<br/>
+    			<a>9.9</a>
+    		</div>
+      	<img class="vehicle-image" src="images/vehicles/volvo-v40.png">
+      	<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Avr. cost per month</p><p class="float-right">€ 189</p>
+    		</div>
+    		<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Vehiculum price</p><p class="float-right">€ 119</p>
+    		</div>
+    		<div class="col-12 no-padding text-resize">
+    			<p class="float-left">Saved during the deal</p><p class="float-right color-red">€ 6785</p>
+    		</div>
+    		<div class="valid-offer">This offer is valid only for the next 48 hours. Hurry up!</div>
+      </div>
+    </div>
+  
+    <div class="col-12">
+    	<h2>Find your leasing brand</h2>
+    	<div class="brands">
+      	<div class=" brands-width"><img class="col-2 full-width" src="images/brands/bmw.svg"></div>
+        <div class=" brands-width"><img class="col-2 full-width" src="images/brands/ford.svg"></div>
+        <div class=" brands-width"><img class="col-2 full-width" src="images/brands/subaru.svg"></div>
+        <div class=" brands-width"><img class="col-2 full-width" src="images/brands/porsche.svg"></div>
+        <div class=" brands-width"><img class="col-2 full-width" src="images/brands/toyota.svg"></div>
+        <div class=" brands-width"><img class="col-2 full-width" src="images/brands/renault.svg"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 no-padding">
+    <img class="col-12 no-padding margin-bottom" src="images/feature.png">
+    <div class="overlay"></div>
+    <div class="text-over-image-ford responsive-layout">
+      <div class="float-left lower-res"><h2>OFFER OF THE MONTH</h2> <h3>Ford Mondera 1.5 Eco Boost</h3></div>
+        <div class="float-right lower-res">
+        	<div class="score-box">
+      		  <a class="underline">Attractivnes</a>
+      			<br/>
+      			<a>10</a>
+      		</div>
+      	</div>
+      	<div class="ford-box col-9">
+      		<div class="col-12 no-padding">
+      			<p class="float-left">Avr. cost per month</p><p class="float-right">€ 799</p>
+      		</div>
+      		<div class="col-12 no-padding">
+      			<p class="float-left">Vehiculum price</p><p class="float-right">€ 649</p>
+      		</div>
+      		<div class="col-12 no-padding">
+      			<p class="float-left">Saved during the deal</p><p class="float-right color-red">€ 4649</p>
+      		</div>
+    		</div>
+    		<div class="last-cars-btn cursor-pointer">LAST 2 CARS AVAILABLE</div>
+    </div>
+  </div>
+
+  <div class="col-12 centered vehiculum-offers">
+		<h2>Top offers in Vehiculum</h2>
+		<div class="top-offers">
+			<p class="inline-block car-name-width">Ford Mondeo 1.5 Eco Boost</p>
+			<div class="line inline-block"></div>
+			<div class="score inline-block">10</div>
+			<div class="check-offer inline-block">Check offer</div>
+		</div>
+		<div class="top-offers">
+			<p class="inline-block car-name-width">Peugeot 308 1.6 HDI</p>
+			<div class="line inline-block"></div>
+			<div class="score inline-block">9.9</div>
+			<div class="check-offer inline-block">Check offer</div>
+		</div>
+		<div class="top-offers">
+			<p class="inline-block car-name-width">Volvo V40 T3 Momentum</p>
+			<div class="line inline-block"></div>
+			<div class="score inline-block">9.9</div>
+			<div class="check-offer inline-block">Check offer</div>
+		</div>
+		<div class="top-offers">
+			<p class="inline-block car-name-width">Jaguar XE 20d AWD</p>
+			<div class="line inline-block"></div>
+			<div class="score inline-block">9.3</div>
+			<div class="check-offer inline-block">Check offer</div>
+		</div>
+		<div class="top-offers">
+			<p class="inline-block car-name-width">Porsche Boxter 718 GTS</p>
+			<div class="line inline-block"></div>
+			<div class="score inline-block">8.1</div>
+			<div class="check-offer inline-block">Check offer</div>
+		</div>
+	</div>
+
+  <div class="col-12 submit-offer">
+    <p>Found better offer? Submit it now!</p>
+    <img class="better-offer-btn" src="images/icons/submit.svg">
+  </div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>

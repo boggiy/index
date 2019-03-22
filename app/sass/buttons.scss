@@ -1,0 +1,52 @@
+@import "app/sass/variables";
+
+.select-btn {
+    background: $select-btn;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid $select-btn;
+    display: inline-block;
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.help-btn {
+  	border: 2px solid $white;
+  	padding: 10px;
+  	text-align: center;
+  	font-size: 16px;
+  	display: inline-block;
+  	width: 270px;
+}
+
+.last-cars-btn {
+    background: $red;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid $red;
+    display: inline-block;
+    width: 75%;
+    margin-top: 15px;
+    color: $white;
+}
+
+.better-offer-btn {
+    width: 5%;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .help-btn {
+    border: 2px solid $select-btn;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .last-cars-btn {
+    width: 100%;
+    font-size: 14px;
+  }
+}
