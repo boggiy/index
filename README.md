@@ -1,6 +1,3 @@
-# vehiculum
-Vehiculum Frontend task
-
 I used Gulp 4, therefore we need to install node.js, Node Package Manager(npm) and Gulp-sass (npm install gulp-sass --save-dev).
 
 I used Slick.js plugin, so we need to install Slick.js as well (npm install slick-carousel)
